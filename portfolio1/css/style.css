@@ -1,0 +1,66 @@
+/*h1 {
+    font-family: verdana;
+    text-align: center;
+  }
+p {
+    color: black;
+  }
+i {
+    font-size: 300%;
+  }
+body {
+  background-color: #ccc
+}
+img {
+  border-radius: 300px;
+  padding: 30px;
+
+}
+div {
+  padding: 30px;
+  margin: 30px;
+  width: 400px;
+  background-color: #eee;
+}
+#mail {
+  color:blue;
+}
+.alpha {
+  float: left;
+}
+.beta {
+  float: left;*/
+}
+.charlie {
+  padding: 0px;
+  margin: 0px;
+  width: 400px;
+  background-color: #eee;
+}
+.delta {
+  margin: 0px auto;
+  background-color: darkgrey;
+}
+label {
+  display: none;
+}
+
+form {
+  background-color: skyblue;
+  width: 360px;
+  padding:20px;
+  border: 1px solid;
+  border-radius: 4px;
+
+}
+input, textarea {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  margin: 2px;
+  width: 100%;
+}
+#c-form {
+  border: 1px green;
+
+}
