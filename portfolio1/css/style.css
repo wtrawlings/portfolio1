@@ -31,6 +31,9 @@ div {
 .beta {
   float: left;*/
 }
+.header {
+  backgorund-image: url("https://cdn.pixabay.com/photo/2015/11/15/21/31/lego-1044891_960_720.jpg");
+}
 .charlie {
   padding: 0px;
   margin: 0px;
