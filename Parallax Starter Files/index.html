@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portfolio Project</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link href="style.css" rel="stylesheet">
+	<link href="css/nav.css" rel="stylesheet">
+	<link rel="stylesheet" href="blueberry.css">
+	<link rel="shortcut icon" type="image/png" href="img/w3-favicon.png"/>
+	<style type="text/css">
+* {
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+}
+body {
+	background: #f0f0f0;
+	font: 14px/20px Arial, San-Serif;
+	color: #555;
+	margin: 0px;
+}
+h1 {
+	text-align: center;
+	font-size: 180%;
+	line-height: 120%;
+	padding: 5% 0;
+}
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+h3 {
+	line-height: 110px;
+	padding: 5% 0;
+}
+p {
+	padding: 1%;
+}
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+header {
+	background-color: #405580;
+	width: 100%;
+	height: 86px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 90%;
+}
+#logo {
+	margin: 20px;
+	float: left;
+	width: 200px;
+	height: 60px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/the-gym.png) no-repeat center;
+}
+nav {
+	float: right;
+	padding: 35px 20px 20px 0px;
+}
+#menu-icon {
+	display: hidden;
+	width: 40px;
+	height: 40px;
+	background: url(http://www.w3newbie.com/wp-content/uploads/icon.png)
+}
+a:hover#menu-icon {
+border-radius: 4px 4px 0px 0px;
+}
+ul {
+	list-style: none;
+
+}
+nav ul li {
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+.current {
+	color: #fff;
+	text-decoration: underline;
+
+}
+#doc {
+	margin: 40px 0px;
+
+}
+#content {
+	margin: 0px auto;
+	max-width: 1140px;
+
+}
+.blueberry {
+	max-width: 960px;
+	margin-top: 110px;
+
+}
+
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.blueberry.js"></script>
+	<script>
+		$(window).load(function() {
+			$('.blueberry').blueberry();
+		});
+ 	</script>
+</head>
+<body>
+	<a name="home">
+<!--- Start Navigation -->
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/main.js"></script> <!--- For Navigation -->
+<!---ADD NAVIGATION HERE and at 7:00 in the video is the start of tutorial
+https://youtu.be/eDIZoNlJ60o?list=PL1N3bzhbaEJCgICk60TaX6utGqED1P87f
+Get this running!!!-->
+	<div class="nav-clear"></div>
+<!--- End Navigation -->
+	<div class="clearfix"></div>
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+		<div class="slide-wrap">
+<!--ADD IMAGE SLIDES HERE-->
+		</div>
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+
+<!---  <p style="text-align: center;"><a href="https://www.w3newbie.com/survey/" target="_blank">Designed by Drew Ryan - w3newbie</a></p>
+-->
+	<header>
+		<a href="#" id="logo"></a>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a class="current" href="#">Home</a></li>
+				<li><a href="#"></a>Media</li>
+				<li><a href="#"></a>Blog</li>
+				<li><a href="#"></a>Projects</li>
+				<li><a href="#"></a>Firebase</li>
+				<li><a href="#"></a>Play</li>
+			</ul>
+	</header>
+	<div id="doc">
+		<div id="content">
+			<div class="blueberry">
+				<ul class="slides">
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/inside-gym.png"></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/push-ups.png"></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/chest-fly.png"></li>
+					<li><img src="http://www.w3newbie.com/wp-content/uploads/training.png"></li>
+				</ul>
+				<section>
+					<img src="http://www.w3newbie.com/wp-content/uploads/trainers.png">
+					<h1>Lets make a Website!</h1>
+					<p>We can make some incredible visual and story experiences to help you market your products and services. More importantly, we LOVE doing it! That's why we are here.</p>
+				</section>
+				<section>
+					<img src="http://www.w3newbie.com/wp-content/uploads/location.png">
+					<h1>What happens Next.</h1>
+					<p>This is the part where most people fall on their face. They make a site and then don't take into account what is needed for the marketing of the site or the underlying ideas behind it.</p>
+				</section>
+				<section>
+					<img src="http://www.w3newbie.com/wp-content/uploads/check.png">
+					<h1>Does it Make Money?</h1>
+					<p>One of the best ways to measure the effectiveness of the Marketing is through our results. And there is only one result we care about after the appeal of the site, it's the money. Does the site make Money?</p>
+				</section>
+				<div class="clear">
+
+				</div>
+				<article>
+					<img src="http://www.w3newbie.com/wp-content/uploads/gym-classes.jpg" alt="gym classes">
+				</article>
+					<aside>
+						<h2>Planned Objectives</h2>
+						<ul class="gym">
+							<li><h3></h3>Learn Web Development</li>
+							<li><h3></h3>Learn the JQuery and </li>
+							<li><h3></h3>Master javascript</li>
+							<li><h3></h3>Learn Java and app development</li>
+							<li><h3></h3>Master Android and make your phone as strong as your desktop computer.</li>
+						</ul>
+					</aside>
+					<div class="clear">
+
+					</div>
+					<section>
+						<h1>Ladies?</h1>
+							<img src="http://www.w3newbie.com/wp-content/uploads/ladies-gym.jpg">
+						<p>Do you want to know what comes next?</p>
+					</section>
+					<section>
+						<h1>Ladies?</h1>
+							<img src="http://www.w3newbie.com/wp-content/uploads/gym-floor.jpg">
+						<p>Do you want to know what comes next?</p>
+					</section>
+					<section>
+						<h1>Ladies?</h1>
+							<img src="http://www.w3newbie.com/wp-content/uploads/free-weights.jpg">
+						<p>Do you want to know what comes next?</p>
+					</section>
+					<footer>
+						<section>
+							<h3><b>The Base</b></h3>
+							<p>770-778-3974</p><br><br><p>4715 Bonny Oaks Drive<br><br>Chattanooga TN 37416</p>
+						</section>
+						<section>
+							<h3><b>Connect with me</b></h3>
+							<p>770-778-3974</p><br><br><p>4715 Bonny Oaks Drive<br><br>Chattanooga TN 37416</p>
+						</section>
+						<section>
+							<h3><b>Make Real Contact</b></h3>
+								<ul class="social">
+									<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></li>
+									<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></li>
+									<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></li>
+
+
+
+
+
+									<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png"></li>
+								</ul>
+						</section>
+						<section>
+							<img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png">
+						</section>
+					</footer>
+					<footer class="second">
+						<p>Copyright TheGym 2017</p>
+					</footer>
+
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
