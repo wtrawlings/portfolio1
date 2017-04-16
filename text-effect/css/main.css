@@ -5,8 +5,19 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: Helvetica,sans-serif;
-  background: #000;
+  background: transparent;
   color: #fff;
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
+  transform: translateX(-50%)
+    translateY(-50%);
+  background: #000;
 }
 article {
   position: relative;
@@ -35,4 +46,11 @@ nav a {
 }
 nav > a:hover {
   border-bottom: .5em solid #c00;
+}
+h1 {
+  color: #fff;
+  font-size: 6em;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #444;
 }
