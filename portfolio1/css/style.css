@@ -31,8 +31,19 @@ div {
 .beta {
   float: left;*/
 }
-.header {
-  backgorund-image: url("https://cdn.pixabay.com/photo/2015/11/15/21/31/lego-1044891_960_720.jpg");
+header {
+  background-image: none;
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -9999;
+  transform: translateX(-50%)
+    translateY(-50%);
+  background: #fff;
 }
 .charlie {
   padding: 0px;
