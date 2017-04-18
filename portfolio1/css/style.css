@@ -79,9 +79,37 @@ input, textarea {
 #c-form {
   border: 1px green;
 }
+.header-content-inner {
+  width: 1000px;
+}
 #homeHeading {
   text-align: left;
+  font-size: 6em;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px #444;
+  border-bottom: .1em solid #F05F40;
+  width: 550px;
+  margin-bottom: 15px;
+  display: none;
 }
-.header-content-inner {
+#homeHeading_p {
+  margin-left: 0px;
   text-align: left;
+  width: 550px;
+  color: #444
+}
+
+
+}
+header .header-content .header-content-inner hr {
+  margin: 30px auto;
+}
+header .header-content .header-content-inner p {
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  margin-bottom: 50px;
+}
+
+#keys-button {
+  margin-left: -750px;
 }
