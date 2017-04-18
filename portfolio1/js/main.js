@@ -6,5 +6,6 @@
 // });
 
 $(document).ready(function () {
-    $('#homeHeading').fadeIn(4000).removeClass('hidden');
+    $('#rabbit').fadeIn(1000).removeClass('hidden');
+    $('#homeHeading').fadeIn(8000).removeClass('hidden');
 });
