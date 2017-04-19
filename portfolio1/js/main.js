@@ -9,3 +9,16 @@ $(document).ready(function () {
     $('#rabbit').fadeIn(1000).removeClass('hidden');
     $('#homeHeading').fadeIn(8000).removeClass('hidden');
 });
+
+//declare var section//
+// var gstd = {
+//   "gstd_status": true,
+//   "company_name": "CompanyName",
+//   "situsedState": "AL",
+//   "minBenefitHours": 35,
+//   "coverageActiveAfterDays":14,
+//   "featureSet": [
+//
+//   ]
+//
+// }
