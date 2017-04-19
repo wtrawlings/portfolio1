@@ -81,12 +81,13 @@ var urlString = window.location.search;
 
 // console.log(urlParams)
 console.log(JSON.stringify(urlParams));
-var myUTM = JSON.parse(urlParams);
+//var myUTM = JSON.parse(urlParams);
 
 
-document.getElementById('CompanyName1').innerHTML = urlParams["CompanyName"[0]];
 
 //look at this notation//
-var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
-var myObj = JSON.parse(myJSON);
-document.getElementById("demo").innerHTML = myObj.name;
+// var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
+// var myObj = JSON.parse(myJSON);
+// document.getElementById("demo").innerHTML = myObj.name;
+
+document.getElementById('CompanyName1').innerHTML = urlParams.CompanyName[0];
