@@ -85,9 +85,20 @@ console.log(JSON.stringify(urlParams));
 
 
 
-//look at this notation//
+//--------look at this notation//
 // var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
 // var myObj = JSON.parse(myJSON);
 // document.getElementById("demo").innerHTML = myObj.name;
 
+
+//---------Replace the CompanyName//
 document.getElementById('CompanyName1').innerHTML = urlParams.CompanyName[0];
+
+
+//--------now lets look at walking through the array to start the assembly//
+var n=0;
+var m=urlParams.submitForm.length;
+while (n<m) {
+  console.log(urlParams.GSTD_Options[n]);
+  n++;
+}
