@@ -40,7 +40,7 @@ p {
 }
 img .person {
   width: 50px
-  
+
 }
 #logo {
   float: left;
@@ -100,6 +100,9 @@ img .person {
   width: auto;
   height: 320px;
 }
+
+
+
 .three-row {
   float: left;
   width: 300px;
@@ -118,6 +121,33 @@ img .person {
 .three-row p {
   font-size: 18px;
 }
+@media screen and (max-width: 600px) {
+  .content-control {
+    width: 100%;
+    margin: auto;
+  }
+  .three-row {
+    width: auto;
+    height: auto;
+    margin: 9px;
+  }
+  .three-row img {
+    width: 100%;
+    height: auto;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+
+
 .charlie {
   padding: 0px;
   margin: 0px;
@@ -147,4 +177,22 @@ input, textarea {
   border-width: 1px;
   margin: 2px;
   width: 100%;
+}
+
+
+
+@media screen and (max-width: 600px) {
+
+  .menus111 {
+    width: auto;
+    height: auto;
+    margin: 9px;
+  }
+  .menus111 img {
+    width: 100%;
+    height: auto;
+
+  }
+
+
 }
